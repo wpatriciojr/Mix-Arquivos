@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1600px;font-family:"DejaVu Sans",Arial,sans-serif;background:#f4f7fb;color:#12263f}
+.hero{background:linear-gradient(135deg,#0b3d91,#1291a8);color:#fff;padding:48px 64px}
+.hero h1{font-size:46px;line-height:1.15}
+.hero p{font-size:22px;margin-top:12px;opacity:.92}
+.sec{padding:36px 64px 0}
+.sec h2{font-size:30px;color:#0b3d91;margin-bottom:6px}
+.sec .sub{font-size:18px;color:#51657f;margin-bottom:20px}
+.flow{display:flex;gap:14px;align-items:stretch}
+.step{flex:1;background:#fff;border-radius:16px;padding:20px 16px;box-shadow:0 2px 8px #0b3d9122;position:relative;text-align:center}
+.step .n{width:40px;height:40px;border-radius:50%;background:#1291a8;color:#fff;font-weight:700;font-size:20px;line-height:40px;margin:0 auto 10px}
+.step .ic{font-size:36px;margin-bottom:6px}
+.step b{display:block;font-size:19px;margin-bottom:6px;color:#0b3d91}
+.step span{font-size:15px;color:#51657f;line-height:1.35;display:block}
+.step:not(:last-child)::after{content:"➜";position:absolute;right:-17px;top:50%;font-size:22px;color:#1291a8;z-index:2}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 2px 8px #0b3d9122;border-top:6px solid #1291a8}
+.card h3{font-size:20px;color:#0b3d91;margin-bottom:10px}
+.card li{font-size:15.5px;margin:0 0 6px 18px;color:#2b3f58;line-height:1.35}
+.quiz{background:#fff;border-radius:20px;padding:28px 32px;box-shadow:0 2px 10px #0b3d9122;display:grid;grid-template-columns:1fr 1fr;gap:10px 40px}
+.grp{margin-bottom:6px}
+.grp h3{font-size:20px;color:#fff;background:#0b3d91;display:inline-block;padding:5px 14px;border-radius:20px;margin:10px 0}
+.q{font-size:17px;margin:9px 0;line-height:1.35}
+.q i{display:inline-block;width:20px;height:20px;border:2px solid #1291a8;border-radius:5px;vertical-align:middle;margin-right:8px}
+.q u{display:block;border-bottom:1.5px dotted #9db0c7;height:20px;margin-top:2px}
+.foot{margin:36px 64px 40px;background:#0b3d91;color:#fff;border-radius:16px;padding:22px 30px;font-size:20px;text-align:center}
+</style></head><body>
+<div class="hero">
+<h1>🦴 Agenda Inteligente para Ortopedia</h1>
+<p>Do primeiro clique do paciente à consulta paga, lembrada e acompanhada — tudo automático.</p>
+</div>
+
+<div class="sec">
+<h2>Como vai funcionar para o paciente</h2>
+<div class="sub">Um único link, sem ligações e sem troca de mensagens para marcar.</div>
+<div class="flow">
+<div class="step"><div class="n">1</div><div class="ic">🔗</div><b>Link</b><span>Paciente acessa pela página do médico (Instagram, Google, WhatsApp)</span></div>
+<div class="step"><div class="n">2</div><div class="ic">📝</div><b>Cadastro + anamnese</b><span>Dados e formulário simples: dor, local, tempo, exames</span></div>
+<div class="step"><div class="n">3</div><div class="ic">📅</div><b>Escolhe o horário</b><span>Só aparecem horários livres. Reserva por 15 minutos</span></div>
+<div class="step"><div class="n">4</div><div class="ic">💳</div><b>Pagamento</b><span>Pix ou cartão pelo Asaas, com confirmação automática</span></div>
+<div class="step"><div class="n">5</div><div class="ic">✅</div><b>Agenda preenchida</b><span>Entra na agenda do médico (Google Agenda) já confirmada</span></div>
+<div class="step"><div class="n">6</div><div class="ic">💬</div><b>WhatsApp</b><span>Confirmação, lembretes, documentos e retorno</span></div>
+<div class="step"><div class="n">7</div><div class="ic">❤️</div><b>Pós-consulta</b><span>Mensagem após alguns dias: “Como você está?”</span></div>
+</div></div>
+
+<div class="sec">
+<h2>O que o consultório ganha</h2>
+<div class="sub">Menos trabalho para a secretária, menos faltas e pacientes mais fiéis.</div>
+<div class="cards">
+<div class="card"><h3>📆 Agenda</h3><ul><li>Horários, intervalos e bloqueios configuráveis</li><li>Sem choque de horários</li><li>Espelho no Google Agenda</li></ul></div>
+<div class="card"><h3>💰 Pagamentos</h3><ul><li>Pix e cartão via Asaas</li><li>Consulta só confirma após pagar</li><li>Cancelamento e reembolso com regras</li></ul></div>
+<div class="card"><h3>💬 WhatsApp</h3><ul><li>Lembretes 24h e 2h antes</li><li>Envio de receitas, exames e orientações</li><li>Aviso de retorno</li></ul></div>
+<div class="card"><h3>🤝 CRM</h3><ul><li>Contato automático após o tratamento</li><li>Alerta se o paciente piorou</li><li>Reativação e avaliação no Google</li></ul></div>
+</div></div>
+
+<div class="sec">
+<h2>Questionário para o médico</h2>
+<div class="sub">Responda o que souber. Suas respostas definem exatamente como o sistema será feito.</div>
+<div class="quiz">
+<div>
+<div class="grp"><h3>1. O consultório</h3>
+<div class="q"><i></i>Atende em quantos locais? <b>1 · 2 · mais</b></div>
+<div class="q"><i></i>Quantos médicos usarão a agenda?<u></u></div>
+<div class="q"><i></i>Tem secretária ou equipe de apoio? Quantas pessoas?<u></u></div></div>
+<div class="grp"><h3>2. Agenda</h3>
+<div class="q"><i></i>Dias e horários de atendimento<u></u></div>
+<div class="q"><i></i>Duração da consulta (1ª vez e retorno)<u></u></div>
+<div class="q"><i></i>Quantas consultas por dia, em média?<u></u></div>
+<div class="q"><i></i>Quantos pacientes faltam sem avisar hoje?<u></u></div></div>
+<div class="grp"><h3>3. Pagamento</h3>
+<div class="q"><i></i>Atende <b>particular · convênio · ambos</b></div>
+<div class="q"><i></i>Valor da consulta e do retorno<u></u></div>
+<div class="q"><i></i>Cobra antecipado? Qual política de cancelamento?<u></u></div>
+<div class="q"><i></i>Já tem conta no Asaas? Emite nota fiscal?<u></u></div></div>
+</div>
+<div>
+<div class="grp"><h3>4. Anamnese</h3>
+<div class="q"><i></i>Quais perguntas não podem faltar?<u></u></div>
+<div class="q"><i></i>Quer receber exames/laudos anexados pelo paciente?</div>
+<div class="q"><i></i>Atende por especialidade (joelho, coluna, ombro…)?<u></u></div></div>
+<div class="grp"><h3>5. WhatsApp e CRM</h3>
+<div class="q"><i></i>Já tem WhatsApp Business? Qual número?<u></u></div>
+<div class="q"><i></i>Que documentos envia ao paciente? (receita, atestado, exames)<u></u></div>
+<div class="q"><i></i>Depois de quantos dias quer perguntar como o paciente está?<u></u></div>
+<div class="q"><i></i>Quem deve ser avisado se o paciente responder que piorou?<u></u></div></div>
+<div class="grp"><h3>6. Hoje e amanhã</h3>
+<div class="q"><i></i>Usa algum sistema ou prontuário? Qual?<u></u></div>
+<div class="q"><i></i>Qual a maior dor do consultório hoje?<u></u></div>
+<div class="q"><i></i>Tem logomarca, site ou redes sociais?<u></u></div>
+<div class="q"><i></i>Prazo desejado e quando quer começar a divulgar?<u></u></div></div>
+</div>
+</div></div>
+
+<div class="foot">🔒 Dados de saúde protegidos conforme a LGPD · Consentimento do paciente registrado · Criptografia e controle de acesso</div>
+</body></html>
